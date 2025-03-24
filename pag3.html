@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Margin cu CSS</title>
+    <style>
+        .margin-box {
+            border: 1px solid gray;
+            margin: 50px; /* Schimbat margin la 50px */
+            width: 200px;
+        }
+        .specific-margin {
+            border: 1px solid purple;
+            margin-top: 20px; /* Modificat marja de sus la 20px */
+            margin-bottom: 10px; /* Modificat marja de jos la 10px */
+            margin-left: 10px; /* Modificat marja din stânga la 10px */
+            margin-right: 20px; /* Modificat marja din dreapta la 20px */
+            width: 200px;
+        }
+        .auto-margin {
+            margin: 0 auto; /* Centrare pe orizontală */
+            width: 200px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        .bottom-margin {
+            margin-bottom: 10px; /* Marja de 10px doar jos */
+            border: 1px solid blue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin-box">
+        Acesta este un div cu o spațiere externă de 50px pe toate laturile.
+    </div>
+    <br>
+    <div class="specific-margin">
+        Acesta este un div cu spațiere externă specifică pentru fiecare latură.
+    </div>
+    <br>
+    <div class="auto-margin">
+        Acesta este un div centrat pe orizontală.
+    </div>
+    <br>
+    <div class="bottom-margin">
+        Acesta este un div cu margin de 10px doar jos.
+    </div>
+</body>
+</html>
